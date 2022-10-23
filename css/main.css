@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #D0DCE9; 
+    background-color: #D0DCE9; 
     color: #1A3EBC;
 
 }
@@ -25,7 +25,8 @@ body {
     grid-template-columns: repeat(4, 4fr);
     gap:1.5rem;
     position: relative;
-    padding-left: 40%;
+    padding-top: 2.1%;
+    padding-left: 45%;
 }
 
  .btn-1{
@@ -84,6 +85,7 @@ body {
 
 .smallThanks{
     font-weight: 700;
+    font-size: 25px;
 }
 
 .main_intro {
@@ -98,8 +100,39 @@ text-align: justify;
 }
 
 .middle_area{
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 1.5rem;
     position: relative;
     padding-left: 50%;
+}
+
+.cv-link{
+    position: relative;
+    background-color: rgba(254, 157, 11, 1);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 8%;
+    max-width: 174px;
+    max-height: 46px;
+}
+
+.git-link{
+    grid-column: span 0;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 90%;
+}
+
+.drib-link{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 90%;
 }
 .vLeft{
     
