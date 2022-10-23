@@ -1,0 +1,106 @@
+*{ 
+    font-family: 'Sahitya', serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: -10px;
+}
+
+body {
+    background: #D0DCE9; 
+    color: #1A3EBC;
+
+}
+
+.cv_prof {
+    position: relative;
+    width: 35%;
+
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap:1.5rem;
+    position: relative;
+    padding-left: 40%;
+}
+
+ .btn-1{
+    color: #1A3EBC;
+    background-color: #D0DCE9;
+    border: 0ch;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+}
+/*
+.btn-2{   
+    position: relative;
+    background-color: #D0DCE9;
+    width: 133px;
+    height: 43px;
+    left: 790px;
+    top: 32px;
+
+
+    font-weight: bold;
+    font-size: 28px; 
+    color: #1A3EBC;
+    border: 0ch;
+} */
+
+.vbac{    
+    position: absolute;
+    max-width: 558px;
+}
+
+.vfront{
+    position: absolute;
+    max-width: 539px;
+}
+
+.profile{
+    position:absolute;
+    border-radius: 190.5px;
+    max-width: 391px;
+    padding-left: 15%;
+    padding-top: 13%;
+}
+
+.hi{
+    padding-top: 15%;
+}
+.bigHi{
+    padding-left: 50%;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.smallThanks{
+    font-weight: 700;
+}
+
+.main_intro {
+position: relative;
+max-width: 892.28px;
+padding-top:40%;
+padding-left: 5%;
+font-weight: 700;
+font-size: 28px;
+line-height: 43px;
+text-align: justify;
+}
+
+.middle_area{
+    position: relative;
+    padding-left: 50%;
+}
+.vLeft{
+    
+}
